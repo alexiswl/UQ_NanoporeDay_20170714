@@ -1,0 +1,21 @@
+---
+title: "matt_test"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Illumina NovaSeq 6000, S2 – Whole Exome Sequencing
+#### Submission of 24 samples (plus multiples of 12)
+#### Offer ends 30 September 2017 
+* SureSelect XT2 Human All Exon v6 (58Mb)
+* 100X raw coverage (5.8 Gb per sample)
+* Analysis includes reference mapping (BWA) and variant calling (GATK)
+* Raw data (FASTQ), alignments (BAM) and variant calls (VCF) provided 
+
+####Sample Requirements:
+* 3 μg of DNA per sample requested (≥100 ng/μl)
+* DNA should be high molecular weight (≥ 20 Kb) and free of RNA as assessed by gel electrophoresis
+* DNA should have an A260/280 ratio of 1.8 – 2.0
