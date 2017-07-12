@@ -7,6 +7,7 @@
       background-size: 150px, 200px;
     }
     .section .reveal .state-background {
+        background: #7FACAD;
         background-image:  url(images/twitter_handle.png), url(images/agrf_logo.jpg);
         background-position: top right, bottom right;
         background-attachment: fixed;
@@ -261,13 +262,13 @@ The validation process. Circularisation
 
 The validation process. Circularised Genome
 =========================================================
-<div id="bg">
+<div id="good_assembly">
   <img src="images/good_assembly.png" alt="good_assembly">
 </div> 
 
 The validation process. Non-circularised Genome
 =========================================================
-<div id="bg">
+<div id="bad_assembly">
   <img src="images/bad_assembly.png" alt="bad_assembly">
 </div> 
 
@@ -276,12 +277,27 @@ What about all the unclassified data?
 * In this particular run there was a large amount of 
 unclassified data. 
 * Can we map it to our draft genomes for a greater consensus sequence?
+* Repeat the process.
+* Outcomes?
 
+<div id="bad_assemby_2">
+  <img src="images/bad_assembly_2.png" alt="bad_assembly_2">
+</div>
 
-
-With the help of hybrid assemblies:
+Conclusions/Next Steps: Wet lab
 ========================================================
-* Unicycler.
+* 50 ng input can be successful.
+* Library-prep important, QC prior to loading. 
+* Library Protocol manipulation, ensure barcodes stick.
+* For larger plasmids, more input may be required. 
+
+Conclusions/Next Steps: Assembly
+========================================================
+* Circlator, often good indication of proper assembly.  
+* Assembly pipeline is fast for plasmids.
+* Complimentary short-read sequencing still required for polishing.
+* Real-time analysis pipeline, could play well with read-until api.
+
 
 
 

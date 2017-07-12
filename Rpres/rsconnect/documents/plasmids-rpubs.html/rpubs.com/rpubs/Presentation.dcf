@@ -2,7 +2,7 @@ name: Presentation
 title:
 account: rpubs
 server: rpubs.com
-appId: https://api.rpubs.com/api/v1/document/290277/634cad7b165247118221b85581ca5e35
-bundleId: https://api.rpubs.com/api/v1/document/290277/634cad7b165247118221b85581ca5e35
-url: http://rpubs.com/publish/claim/290277/9c9ce95e109b475988327b1fb0929c49
-when: 1499653377.59406
+appId: https://api.rpubs.com/api/v1/document/290860/c1ed7c284d6841f9b7075445fd1140b3
+bundleId: https://api.rpubs.com/api/v1/document/290860/c1ed7c284d6841f9b7075445fd1140b3
+url: http://rpubs.com/publish/claim/290860/11519bb9ff9042a1bb0c5b4a0908ed01
+when: 1499859137.72318
