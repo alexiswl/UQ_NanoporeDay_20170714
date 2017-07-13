@@ -1,7 +1,7 @@
 # UQ NanoporeDay 14th July 2017
 Slides, images and references for my presentation at UQ Nanopore Day on 14th July 2017
 
-This presentation is hosted on [RPubs](http://rpubs.com/alexiswl/UQ_NanoporeDay_20170714)
+This presentation is hosted on [GitHub](https://alexiswl.github.io/UQ_NanoporeDay_20170714/)
 
 Author: Alexis Lucattini  
 
