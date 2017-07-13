@@ -172,15 +172,15 @@ The real-time analysis pipeline. Part 3/6
 
 |Sample       |    Yield|
 |:------------|--------:|
+|YHC6         |   363154|
+|YHC7         |   468044|
+|YHC8         |   903629|
+|YHC17        |   871441|
 |JB1          |  8073511|
 |JB2          |  1475418|
 |PTS1         |   549940|
 |PTS2         |   324648|
 |unclassified | 57426941|
-|YHC17        |   871441|
-|YHC6         |   363154|
-|YHC7         |   468044|
-|YHC8         |   903629|
 
 
 ***

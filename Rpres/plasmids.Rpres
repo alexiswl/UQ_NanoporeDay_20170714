@@ -170,7 +170,9 @@ The real-time analysis pipeline. Part 2/`r NUM_SEGMENTS`
 ```{r, echo=FALSE}
 # View output of each bin
 bin_table = read.table("data/size_by_barcode.tsv", header=TRUE)
-
+bin_table <- within(bin_table,
+                    sample <- factor(sample,
+                                     levels=c(paste(plasmids.df$Names), "unclassified")))
 ggplot(bin_table, aes(bin, nucleotides)) +
   geom_bar(stat="identity", aes(fill=sample))
 ```
@@ -188,9 +190,7 @@ The real-time analysis pipeline. Part 2/`r NUM_SEGMENTS`
 ***
 
 ```{r, echo=FALSE}
-# View output of each bin
-bin_table = read.table("data/size_by_barcode.tsv", header=TRUE)
-
+# Same plot as before
 ggplot(bin_table, aes(bin, nucleotides)) +
   geom_bar(stat="identity", aes(fill=sample))
 ```
