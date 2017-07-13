@@ -195,6 +195,7 @@ The real-time analysis pipeline. Part 2/`r NUM_SEGMENTS`
 ```{r, echo=FALSE}
 # Same plot as before
 ggplot(bin_table, aes(bin, nucleotides)) +
+  scale_fill_brewer(palette="Paired") +  
   geom_bar(stat="identity", aes(fill=sample))
 ```
 
