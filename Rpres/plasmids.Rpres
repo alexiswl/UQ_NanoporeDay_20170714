@@ -174,7 +174,10 @@ bin_table <- within(bin_table,
                     sample <- factor(sample,
                                      levels=c(paste(plasmids.df$Names), "unclassified")))
 ggplot(bin_table, aes(bin, nucleotides)) +
+  scale_fill_brewer(palette="Paired") +  
   geom_bar(stat="identity", aes(fill=sample))
+
+
 ```
 
 The real-time analysis pipeline. Part 2/`r NUM_SEGMENTS`
