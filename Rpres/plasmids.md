@@ -289,6 +289,7 @@ Conclusions/Next Steps: Wet lab
 * 50 ng input can be successful.
 * Library-prep important, QC prior to loading. 
 * Library Protocol manipulation, ensure barcodes stick.
+* PCR (96) barcoding gDNA.
 * For larger plasmids, more input may be required. 
 
 Conclusions/Next Steps: Assembly
@@ -298,6 +299,23 @@ Conclusions/Next Steps: Assembly
 * Complimentary short-read sequencing still required for polishing.
 * Real-time analysis pipeline, could play well with read-until api.
 
+Acknowledgements:
+========================================================
+* AGRF:
+  * Ken McGrath
+  * Lavinia Gordon
+  * David Chandler
+  
+* WEHI:
+  * Matthew Ritchie
+  
+***
 
+<div id="good_assembly">
+  <img src="images/agrf_logo.jpg" alt="wehi_logo">
+</div> 
 
+<div id="good_assembly">
+  <img src="images/wehi_logo.jpg" alt="wehi_logo">
+</div> 
 
