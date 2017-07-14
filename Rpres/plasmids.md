@@ -304,8 +304,9 @@ Acknowledgements:
 * AGRF:
   * Ken McGrath
   * Lavinia Gordon
+  * Matthew Tinning
   * David Chandler
-  
+
 * WEHI:
   * Matthew Ritchie
   
@@ -314,6 +315,8 @@ Acknowledgements:
 <div id="good_assembly">
   <img src="images/agrf_logo.jpg" alt="wehi_logo">
 </div> 
+
+$~$
 
 <div id="good_assembly">
   <img src="images/wehi_logo.jpg" alt="wehi_logo">
